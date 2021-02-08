@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/aishwaryapatil/static/css/main.4e8f36d6.chunk.css",
+    "main.js": "/aishwaryapatil/static/js/main.090e1886.chunk.js",
+    "main.js.map": "/aishwaryapatil/static/js/main.090e1886.chunk.js.map",
+    "runtime-main.js": "/aishwaryapatil/static/js/runtime-main.dce0daf7.js",
+    "runtime-main.js.map": "/aishwaryapatil/static/js/runtime-main.dce0daf7.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/aishwaryapatil/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.71b3538e.chunk.js": "/aishwaryapatil/static/js/2.71b3538e.chunk.js",
+    "static/js/2.71b3538e.chunk.js.map": "/aishwaryapatil/static/js/2.71b3538e.chunk.js.map",
+    "static/js/3.7f0ccddf.chunk.js": "/aishwaryapatil/static/js/3.7f0ccddf.chunk.js",
+    "static/js/3.7f0ccddf.chunk.js.map": "/aishwaryapatil/static/js/3.7f0ccddf.chunk.js.map",
+    "index.html": "/aishwaryapatil/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/aishwaryapatil/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.4e8f36d6.chunk.css.map": "/aishwaryapatil/static/css/main.4e8f36d6.chunk.css.map",
+    "static/js/2.71b3538e.chunk.js.LICENSE.txt": "/aishwaryapatil/static/js/2.71b3538e.chunk.js.LICENSE.txt",
+    "static/media/Ashe.8320704f.jpg": "/aishwaryapatil/static/media/Ashe.8320704f.jpg",
+    "static/media/resume.db9d6f1d.pdf": "/aishwaryapatil/static/media/resume.db9d6f1d.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dce0daf7.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.71b3538e.chunk.js",
+    "static/css/main.4e8f36d6.chunk.css",
+    "static/js/main.090e1886.chunk.js"
+  ]
+}
