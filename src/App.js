@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+import Introduction from './components/Introduction';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
+import Unxpired from './components/Unxpired';
+import LoanPrediction from './components/LoanPrediction';
+import Kaleidoscope from './components/Kaleidoscope';
+import MovieReviews from './components/MovieReviews';
+import AboutMe from './components/AboutMe';
+import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+      <div className="App" style={{display: 'flex', flexDirection: 'column', flex: 1}}>
+        <Header />
+        <Route path='/home' exact component={Introduction}/>
+        <Route path='/home' exact component={Experience}/>
+        <Route path='/Unxpired' component={Unxpired}/>
+        <Route path='/LoanPrediction' component={LoanPrediction}/>
+        <Route path='/Kaleidoscope' component={Kaleidoscope}/>
+        <Route path='/MovieReviews' component={MovieReviews}/>
+        <Route path='/aboutme' exact component={AboutMe}/>
+        <Footer />
     </div>
+
+    </Router>
+    
   );
 }
 
